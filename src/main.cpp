@@ -1,11 +1,10 @@
 // Copyright 2022 NNTU-CS
-#include "tree.h"
-
-#include <chrono>
-#include <fstream>
 #include <iostream>
+#include <fstream>
+#include <chrono>
 #include <random>
 #include <vector>
+#include "tree.h"
 
 int main() {
   std::ofstream plot("result/plot.csv");
